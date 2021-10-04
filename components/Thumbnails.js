@@ -43,5 +43,5 @@ const Thumbnails = forwardRef(({ result }, ref) => {
         </div>
     )
 })
-
+Thumbnails.displayName = 'Thumbnails';
 export default Thumbnails
