@@ -1,4 +1,4 @@
-import Thumbnail from "./Thumbnail";
+import Thumbnails from "./Thumbnails";
 import FlipMove from "react-flip-move";
 
 
@@ -7,7 +7,7 @@ function Results({ results }) {
         <FlipMove className="px-2 my-10 sm:grid md:grid-cols-2 xl:grid-cols-3
         3xl:flex flex-wrap justify-center">
             {results.map((result) => (
-                <Thumbnail key={result.id} result={result} />
+                <Thumbnails key={result.id} result={result} />
 
             ))}
 
